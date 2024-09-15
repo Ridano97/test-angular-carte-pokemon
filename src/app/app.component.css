@@ -1,0 +1,30 @@
+h1 {
+    background-color : black;
+    color : white;
+    text-align : center;
+}
+
+.card-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-bottom: 10px;
+    background-color: rgb(255, 85, 85);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px rgb(255, 255, 255) ;
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    
+}
